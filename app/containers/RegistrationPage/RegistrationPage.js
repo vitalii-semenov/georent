@@ -4,10 +4,6 @@ import { Helmet } from 'react-helmet';
 import './style.scss';
 
 export default class RegistrationPage extends Component {
-  shouldComponentUpdate() {
-    return false;
-  }
-
   render() {
     return (
       <div className="registration-page">
