@@ -3,19 +3,18 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import './style.scss';
 
-export default class HomePage extends Component {
+export default class FeaturePage extends Component {
   render() {
     return (
-      <div>
+      <div className="feature-page">
         <Helmet>
-          <title>HomePage</title>
+          <title>Feature Page</title>
           <meta
             name="description"
             content="Feature page of React.js Boilerplate application"
           />
         </Helmet>
-
-        <h1>This is GeoRent Start Page.  Please Insert Components here:</h1>
+          This is Feature Page
       </div>
     );
   }

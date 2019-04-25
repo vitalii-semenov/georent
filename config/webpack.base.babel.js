@@ -19,6 +19,10 @@ module.exports = (options) => ({
     options.output
   ), // Merge with env dependent settings
   module: {
+    // loaders: [
+    //   { test: /\.css$/, loader: 'style-loader!css-loader' },
+    //   // ...
+    // ],
     rules: [
       {
         test: /\.js$/, // Transform all .js files required somewhere with Babel
