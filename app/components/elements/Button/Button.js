@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style.scss';
 
-const Button = () => (
-  <div className="Button">
-    <button type="button">Button</button>
-  </div>
-);
-
-
-export default Button;
+export default class Button extends Component {
+  render() {
+    return (
+      <button
+        className={this.props.className}
+        style={this.props.style}
+        onClick={this.props.onClick}
+        type="submit"
+      >{
+          this.props.value
+        }
+      </button>
+    );
+  }
+}
