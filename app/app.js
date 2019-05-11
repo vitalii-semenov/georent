@@ -19,8 +19,6 @@ import 'sanitize.css/sanitize.css';
 
 // Import root app
 import App from './App/App';
-≠ђ
-
 // Import CSS reset and Global Styles
 import 'styles/theme.scss';
 import '../node_modules/font-awesome/css/font-awesome.min.css';

@@ -30,8 +30,12 @@
   text-decoration:none;
   text-shadow:0px 1px 0px #283966;
   border: none;
+  border-radius: 7px;
 
   &:hover {
+    -moz-box-shadow: 0px 1px 2px 0px #000000;
+    -webkit-box-shadow: 0px 1px 2px 0px #000000;
+    box-shadow: 0px 1px 2px 0px #000000;
     color: #9500b3;
   }
 }
